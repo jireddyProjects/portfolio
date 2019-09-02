@@ -14,13 +14,13 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { FormsModule } from '@angular/forms';
 
 const config = {
-  apiKey: 'AIzaSyAvXcrxny-3O737yQd03WAk52wMXWXdyu0',
-  authDomain: 'jireddyportfolio.firebaseapp.com',
-  databaseURL: 'https://jireddyportfolio.firebaseio.com',
+  apiKey: APIKEY,
+  authDomain: AUTHDOMAIN,
+  databaseURL: DATABASEURL,
   projectId: 'jireddyportfolio',
   storageBucket: '',
-  messagingSenderId: '1090312520933',
-  appId: '1:1090312520933:web:3ab50a2479be7b69'
+  messagingSenderId: MESSAGESENDERID,
+  appId: APPID
 };
 
 @NgModule({
